@@ -1,0 +1,14 @@
+"Hello & Welcome to this litte POC ! (Proof Of Concept)"
+
+Step 1 : 
+    - Please check that python is installed ; to be sure, execute "python-3.10.5-amd64.exe"
+    - Please check that git-bah is installed ; to be sure, execute " Git-2.36.1-64-bit.exe"
+
+Step 2 : 
+    - Right-click on "launch.sh" and select 'Open With' -> Git Windows / Git Bash / Git Console / ...
+    - Double-click on "launch.sh" to install pip requirements, start server, and open interface
+    - Alternatevily navigate to this subfolder with Command Console, and enter 'python ./carsale.py'
+
+Step 3 : 
+    - Be apologetic if this POC has somehow failed ( // INTERNAL_SERVER_ERROR anybody ?)
+    - Else : Give a good grade if everything has gone well ! <3
