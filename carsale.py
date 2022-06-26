@@ -19,7 +19,10 @@ def getIdList():
     for carTemp in carsJSON:
         print('carTemp : ', carTemp)
         if carTemp['id'] not in idList:
-            idList.append(int(carTemp['id']))
+            try :          
+                idList.append(int(carTemp['id']))
+            except Exception as err:
+                print(err)
     print('idList : ', idList)
 
     return idList
