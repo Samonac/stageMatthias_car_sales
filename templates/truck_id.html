@@ -1,0 +1,17 @@
+<form method="GET">
+    <div class="form-row">
+      <div class="col-12 col-md-9 mb-2 mb-md-0">
+        <input type="text" class="form-control form-control-lg" placeholder="Enter truck-id" name = 'truck_id'>
+      </div>
+      <div class="col-12 col-md-3">
+        <button type="submit" class="btn btn-block btn-lg btn-primary">Search</button>
+      </div>
+    </div>
+</form>
+
+{% if status != "not found" %}
+<p>The item is found !</p>
+{% endif %}
+{% if status == "not found" %}
+<p>The item is not found </p>
+{% endif %}
